@@ -328,4 +328,66 @@ header .swipe-btn img {
 }
 .global-network .content .slider .polish-slide .button:hover p {
   color: #ed1847;
+}
+
+.delivery {
+  height: 664px;
+  margin-top: 360px;
+}
+.delivery .content {
+  width: 100%;
+}
+.delivery .content .tittle {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.delivery .content .tittle h2 {
+  font-family: "nunito", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+}
+.delivery .columns {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+.delivery .columns .columm {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+}
+.delivery .columns .columm h4 {
+  font-family: "open sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.delivery .columns .columm p {
+  font-family: "open sans", sans-serif;
+  font-size: 18px;
+}
+.delivery .columns .columm .button {
+  width: 172px;
+  height: 50px;
+  background-color: #ed1847;
+  border-radius: 50px;
+  margin-top: auto;
+}
+.delivery .columns .columm .button p {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding-top: 12px;
+}
+.delivery .columns .columm .button:hover {
+  background-color: #fff;
+  border: 2px solid;
+  border-color: #ed1847;
+}
+.delivery .columns .columm .button:hover p {
+  color: #ed1847;
 }/*# sourceMappingURL=style.css.map */
