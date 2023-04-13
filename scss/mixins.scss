@@ -15,6 +15,14 @@
     text-align: center;
     padding-top: 12px;
 }
+@mixin button-hover{
+    background-color: #fff;
+    border: 2px solid;
+    border-color: #ed1847;
+        p{
+            color: #ed1847;
+        }
+}
 @mixin map-title{
     width: 224px;
     text-align: center;

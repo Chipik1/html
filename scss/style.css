@@ -189,6 +189,14 @@ header .swipe-btn img {
   text-align: center;
   padding-top: 12px;
 }
+.global-network .content .slider .britain-slide .button:hover {
+  background-color: #fff;
+  border: 2px solid;
+  border-color: #ed1847;
+}
+.global-network .content .slider .britain-slide .button:hover p {
+  color: #ed1847;
+}
 .global-network .content .slider .germany-slide {
   display: flex;
   flex-direction: column;
@@ -213,6 +221,14 @@ header .swipe-btn img {
   color: #fff;
   text-align: center;
   padding-top: 12px;
+}
+.global-network .content .slider .germany-slide .button:hover {
+  background-color: #fff;
+  border: 2px solid;
+  border-color: #ed1847;
+}
+.global-network .content .slider .germany-slide .button:hover p {
+  color: #ed1847;
 }
 .global-network .content .slider .spain-slide {
   display: flex;
@@ -239,6 +255,14 @@ header .swipe-btn img {
   text-align: center;
   padding-top: 12px;
 }
+.global-network .content .slider .spain-slide .button:hover {
+  background-color: #fff;
+  border: 2px solid;
+  border-color: #ed1847;
+}
+.global-network .content .slider .spain-slide .button:hover p {
+  color: #ed1847;
+}
 .global-network .content .slider .canada-slide {
   display: flex;
   flex-direction: column;
@@ -264,6 +288,14 @@ header .swipe-btn img {
   text-align: center;
   padding-top: 12px;
 }
+.global-network .content .slider .canada-slide .button:hover {
+  background-color: #fff;
+  border: 2px solid;
+  border-color: #ed1847;
+}
+.global-network .content .slider .canada-slide .button:hover p {
+  color: #ed1847;
+}
 .global-network .content .slider .polish-slide {
   display: flex;
   flex-direction: column;
@@ -288,4 +320,12 @@ header .swipe-btn img {
   color: #fff;
   text-align: center;
   padding-top: 12px;
+}
+.global-network .content .slider .polish-slide .button:hover {
+  background-color: #fff;
+  border: 2px solid;
+  border-color: #ed1847;
+}
+.global-network .content .slider .polish-slide .button:hover p {
+  color: #ed1847;
 }/*# sourceMappingURL=style.css.map */
