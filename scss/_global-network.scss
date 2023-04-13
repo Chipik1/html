@@ -1,0 +1,53 @@
+@import "mixins";
+.global-network{
+    height: 937px;
+    .content{
+        width: 100%;
+        .text-box{
+            width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            h2{
+                font-family: "nunito", sans-serif;
+                font-size: 48px;
+                font-weight: 500;
+            }
+            p{
+                font-family: "open sans", sans-serif;
+                font-size: 18px;
+                margin-top: 20px;
+            }
+        }
+        .city{
+            height: 540px;
+            display: flex;
+            background-image: url("../img/bg-city.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .britain{
+            @include flex-center-colum;
+            @include title-city
+        }
+        .germany{
+            @include flex-center-colum;
+            @include title-city;
+            margin-top: 20px;
+        }
+        .canada{
+            @include flex-center-colum;
+            @include title-city
+        }
+        .polish{
+            @include flex-center-colum;
+            @include title-city;
+            margin-top: 20px;
+        }
+        .spain{
+            @include flex-center-colum;
+            @include title-city
+        }
+    }
+}

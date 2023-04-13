@@ -1,0 +1,10 @@
+@mixin flex-center-colum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin title-city{
+    font-family: "open sans", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+}
