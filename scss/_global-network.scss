@@ -26,28 +26,129 @@
             background-repeat: no-repeat;
             justify-content: space-around;
             margin-top: 40px;
+            span{
+                @include title-city
+            }
+            .britain{
+                @include flex-center-colum;
+            }
+            .germany{
+                @include flex-center-colum;
+                margin-top: 20px;
+            }
+            .canada{
+                @include flex-center-colum;
+            }
+            .polish{
+                @include flex-center-colum;
+                margin-top: 20px;
+            }
+            .spain{
+                @include flex-center-colum;
+            }
         }
-        .britain{
-            @include flex-center-colum;
-            @include title-city
-        }
-        .germany{
-            @include flex-center-colum;
-            @include title-city;
-            margin-top: 20px;
-        }
-        .canada{
-            @include flex-center-colum;
-            @include title-city
-        }
-        .polish{
-            @include flex-center-colum;
-            @include title-city;
-            margin-top: 20px;
-        }
-        .spain{
-            @include flex-center-colum;
-            @include title-city
+        .slider{
+            justify-content: center;
+            width: 100%;
+            min-width: 0;
+            .slick-track{
+                display: flex;
+            }
+            
+            .britain-slide{
+                @include flex-center-colum;
+                min-width: 0;
+                span{
+                    @include map-title
+                }
+                .button{
+                    width: 224px;
+                    height: 50px;
+                    border-radius: 50px;
+                    background-color: #ed1847;
+                    margin-top: 20px;
+                    
+                    p{
+                        font-family: "open sans", sans-serif;
+                        font-size: 16px;
+                        color: #fff;
+                        text-align: center;
+                        padding-top: 12px;
+                    }
+                }
+            }
+            .germany-slide{
+                @include flex-center-colum;
+                min-width: 0;
+                span{
+                    @include map-title
+                }
+                .button{
+                    width: 164px;
+                    height: 50px;
+                    border-radius: 50px;
+                    background-color: #ed1847;
+                    margin-top: 20px;
+                    
+                    p{
+                        @include button-text
+                    }
+                }
+            }
+            .spain-slide{
+                @include flex-center-colum;
+                min-width: 0;
+                span{
+                    @include map-title
+                }
+                .button{
+                    width: 154px;
+                    height: 50px;
+                    border-radius: 50px;
+                    background-color: #ed1847;
+                    margin-top: 20px;
+                    
+                    p{
+                        @include button-text
+                    }
+                }
+            }
+            .canada-slide{
+                @include flex-center-colum;
+                min-width: 0;
+                span{
+                    @include map-title
+                }
+                .button{
+                    width: 141px;
+                    height: 50px;
+                    border-radius: 50px;
+                    background-color: #ed1847;
+                    margin-top: 20px;
+                    
+                    p{
+                        @include button-text
+                    }
+                }
+            }
+            .polish-slide{
+                @include flex-center-colum;
+                min-width: 0;
+                span{
+                    @include map-title
+                }
+                .button{
+                    width: 148px;
+                    height: 50px;
+                    border-radius: 50px;
+                    background-color: #ed1847;
+                    margin-top: 20px;
+                    
+                    p{
+                        @include button-text
+                    }
+                }
+            }
         }
     }
 }

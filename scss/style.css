@@ -4,7 +4,7 @@ header {
   width: 100%;
   height: 825px;
   background-image: url("../img/bg.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 header a {
@@ -124,45 +124,168 @@ header .swipe-btn img {
   justify-content: space-around;
   margin-top: 40px;
 }
-.global-network .content .britain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.global-network .content .city span {
   font-family: "open sans", sans-serif;
   font-size: 21px;
-  font-weight: 500;
+  font-weight: 700;
 }
-.global-network .content .germany {
+.global-network .content .city .britain {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "open sans", sans-serif;
-  font-size: 21px;
-  font-weight: 500;
+}
+.global-network .content .city .germany {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
 }
-.global-network .content .canada {
+.global-network .content .city .canada {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "open sans", sans-serif;
-  font-size: 21px;
-  font-weight: 500;
 }
-.global-network .content .polish {
+.global-network .content .city .polish {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "open sans", sans-serif;
-  font-size: 21px;
-  font-weight: 500;
   margin-top: 20px;
 }
-.global-network .content .spain {
+.global-network .content .city .spain {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.global-network .content .slider {
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+}
+.global-network .content .slider .slick-track {
+  display: flex;
+}
+.global-network .content .slider .britain-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+.global-network .content .slider .britain-slide span {
+  width: 224px;
+  text-align: center;
+  font-weight: 700;
+}
+.global-network .content .slider .britain-slide .button {
+  width: 224px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #ed1847;
+  margin-top: 20px;
+}
+.global-network .content .slider .britain-slide .button p {
   font-family: "open sans", sans-serif;
-  font-size: 21px;
-  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding-top: 12px;
+}
+.global-network .content .slider .germany-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+.global-network .content .slider .germany-slide span {
+  width: 224px;
+  text-align: center;
+  font-weight: 700;
+}
+.global-network .content .slider .germany-slide .button {
+  width: 164px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #ed1847;
+  margin-top: 20px;
+}
+.global-network .content .slider .germany-slide .button p {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding-top: 12px;
+}
+.global-network .content .slider .spain-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+.global-network .content .slider .spain-slide span {
+  width: 224px;
+  text-align: center;
+  font-weight: 700;
+}
+.global-network .content .slider .spain-slide .button {
+  width: 154px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #ed1847;
+  margin-top: 20px;
+}
+.global-network .content .slider .spain-slide .button p {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding-top: 12px;
+}
+.global-network .content .slider .canada-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+.global-network .content .slider .canada-slide span {
+  width: 224px;
+  text-align: center;
+  font-weight: 700;
+}
+.global-network .content .slider .canada-slide .button {
+  width: 141px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #ed1847;
+  margin-top: 20px;
+}
+.global-network .content .slider .canada-slide .button p {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding-top: 12px;
+}
+.global-network .content .slider .polish-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+.global-network .content .slider .polish-slide span {
+  width: 224px;
+  text-align: center;
+  font-weight: 700;
+}
+.global-network .content .slider .polish-slide .button {
+  width: 148px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #ed1847;
+  margin-top: 20px;
+}
+.global-network .content .slider .polish-slide .button p {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding-top: 12px;
 }/*# sourceMappingURL=style.css.map */

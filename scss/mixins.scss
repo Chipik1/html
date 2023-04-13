@@ -6,5 +6,17 @@
 @mixin title-city{
     font-family: "open sans", sans-serif;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 700;
+}
+@mixin button-text{
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+}
+@mixin map-title{
+    width: 224px;
+    text-align: center;
+    font-weight: 700;
 }
