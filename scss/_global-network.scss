@@ -22,7 +22,7 @@
             height: 540px;
             display: flex;
             background-image: url("../img/bg-city.png");
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
             justify-content: space-around;
             margin-top: 40px;
@@ -67,8 +67,10 @@
                     border-radius: 50px;
                     background-color: #ed1847;
                     margin-top: 20px;
+                    text-align: center;
+                    padding-top: 10px;
  
-                    p{
+                    a{
                         @include button-text
                     }
                 }
@@ -88,8 +90,10 @@
                     border-radius: 50px;
                     background-color: #ed1847;
                     margin-top: 20px;
+                    text-align: center;
+                    padding-top: 10px;
                     
-                    p{
+                    a{
                         @include button-text
                     }
                 }
@@ -109,8 +113,9 @@
                     border-radius: 50px;
                     background-color: #ed1847;
                     margin-top: 20px;
-                    
-                    p{
+                    text-align: center;
+                    padding-top: 10px;
+                    a{
                         @include button-text
                     }
                 }
@@ -130,8 +135,10 @@
                     border-radius: 50px;
                     background-color: #ed1847;
                     margin-top: 20px;
-                    
-                    p{
+                    text-align: center;
+                    padding-top: 10px;
+
+                    a{
                         @include button-text
                     }
                 }
@@ -151,8 +158,10 @@
                     border-radius: 50px;
                     background-color: #ed1847;
                     margin-top: 20px;
-                    
-                    p{
+                    text-align: center;
+                    padding-top: 10px;
+
+                    a{
                         @include button-text
                     }
                 }
