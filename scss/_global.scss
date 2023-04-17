@@ -1,0 +1,59 @@
+@import "mixins";
+.global{
+    width: 100%;
+    height: 690px;
+    display: flex;
+    .global-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .text-box{
+            width: 560px;
+            h2{
+                font-family: "Nunito", sans-serif;
+                font-size: 32px;
+                font-weight: 500;
+                color: #000;
+            }
+            p{
+                font-family: "open sans", sans-serif;
+                font-size: 18px;
+
+            }
+            li{
+                list-style-type: square;
+                list-style-position: inside;
+                font-family: "open sans", sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            li::marker{
+                color: #ed1847;
+                font-size: 20px;
+            }
+            .button{
+                width: 340px;
+                height: 50px;
+                border-radius: 50px;
+                background-color: #ed1847;
+                text-align: center;
+                margin-left: 100px;
+                padding-top: 10px;
+                
+                a{
+                    @include button-text;
+                    text-decoration: none;
+                }
+            }
+            .button:hover{
+                @include button-hover
+            }
+        }
+        img{
+            width: 550px;
+            height: 547px;
+        }
+        
+    }
+}
