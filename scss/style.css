@@ -596,4 +596,148 @@ header .swipe-btn img {
 }
 .feature .feature-box .button:hover a {
   color: #ed1847;
+}
+
+.contact {
+  width: 100%;
+  height: 990px;
+  display: flex;
+  justify-content: center;
+}
+.contact .contact-box {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  text-align: center;
+  flex-direction: column;
+}
+.contact .contact-box h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.contact .contact-box h2 {
+  font-family: "open sans", sans-serif;
+  font-size: 36px;
+}
+.contact .contact-box span {
+  color: red;
+}
+.contact .contact-box label {
+  font-family: "open sans", sans-serif;
+  font-size: 14px;
+  color: #757575;
+  font-weight: 500;
+}
+.contact .contact-box .form-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F4F6F8;
+  box-shadow: 1px 4px 10px 0 #757575;
+  border-radius: 20px;
+}
+.contact .contact-box .form-block img {
+  border-radius: 20px 0 0 20px;
+}
+.contact .contact-box .form-block .form {
+  display: flex;
+  width: 540px;
+  height: 600px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  margin-right: 80px;
+}
+.contact .contact-box .form-block .form .name {
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-box .form-block .form .name input {
+  width: 255px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #F4F6F8;
+  box-shadow: inset 0 5px 5px #888;
+}
+.contact .contact-box .form-block .form .lastname {
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-box .form-block .form .lastname input {
+  width: 255px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #F4F6F8;
+  box-shadow: inset 0 5px 5px #888;
+}
+.contact .contact-box .form-block .form .email {
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-box .form-block .form .email input {
+  width: 540px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #F4F6F8;
+  box-shadow: inset 0 5px 5px #888;
+}
+.contact .contact-box .form-block .form .phone-block {
+  display: flex;
+  justify-content: space-between;
+  width: 540px;
+}
+.contact .contact-box .form-block .form .phone-block input {
+  width: 255px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #F4F6F8;
+  box-shadow: inset 0 5px 5px #888;
+}
+.contact .contact-box .form-block .form .phone-block .telephone {
+  width: 255px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.contact .contact-box .form-block .form .phone-block .country {
+  width: 255px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.contact .contact-box .form-block .form .message {
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-box .form-block .form .message input {
+  width: 540px;
+  height: 169px;
+  border-radius: 5px;
+  padding-bottom: 100px;
+  background-color: #F4F6F8;
+  box-shadow: inset 0 5px 5px #888;
+}
+.contact .contact-box .form-block .form .terms {
+  display: flex;
+  width: 540px;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .contact-box .form-block .form .terms input {
+  margin-bottom: 8px;
+}
+.contact .contact-box .form-block .form .terms h4 {
+  font-family: "open sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.contact .contact-box .form-block .form .btn {
+  width: 173px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #ed1846;
+  margin-left: 190px;
 }/*# sourceMappingURL=style.css.map */
